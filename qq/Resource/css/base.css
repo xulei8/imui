@@ -1,0 +1,159 @@
+body,html{
+	margin:0px;
+	padding:0px;
+}
+ul,li{
+	margin:0px;
+	padding:0px;
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+.qbox{
+	width: 100%;
+	min-height: 302px;
+	border-radius: 3px;
+	box-shadow: 0 5px 10px #939aa7;
+    -webkit-transform: translateY(-2px);
+    -webkit-transition: -webkit-transform .2s ease, box-shadow .2s ease, border .2s ease;
+}
+
+/*head*/
+.head{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	height: 142px;
+	overflow: hidden;
+}
+.head .funcs{
+	height: 37px;
+}
+.head .search-box{
+	padding:0px 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color:#ffffff;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+.head .search-box .search-button{
+	width: 18px;
+	height: 30px;
+	display: block;
+	float: right;
+	background: url(../img/icons.png) no-repeat top right;
+}
+
+.head .top{
+	height: 100px;
+	padding:3px 8px 8px 8px;
+}
+.head .top .logo_quick{
+	color: #ffffff;
+	height: 20px;
+}
+.head .top .logo{
+	width:100px;
+	float: left;
+	height: 20px;
+	overflow: hidden;
+	font-size:12px;
+	font-family: 'Arial',
+}
+.head .top .quicks{
+	float: right;
+	margin-top: 3px;
+	width: 55px;
+	height: 11px;
+}
+.head .top .quicks a{
+	float: right;
+	height: 11px;
+	width: 11px;
+	background-image: url(../img/icons.png);
+	background-repeat: no-repeat;
+	margin-left: 15px;
+}
+.head .top .quicks a.to_small{
+	background-position: -19px -2px;
+}
+.head .top .quicks a.to_close{
+	background-position: 0px 0px;
+}
+
+/*main 共442px*/
+.main{
+	
+}
+.main .options{
+	height: 36px;
+	border-bottom: 1px solid #D9DFE2;
+}
+.main .options li{
+	height: 36px;
+	display: block;
+	width: 33.3%;
+	float: left;
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+.main .options li span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/options-gray.png) no-repeat;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	display: block;
+	margin:8px auto;
+}
+.main .options li span:hover{
+	background: url(../img/options.png) no-repeat;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+.main .options li.current span{
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+	background: url(../img/options.png) no-repeat;
+}
+.main .options li.o-contacts span{
+	background-position: 0px 0px;
+}
+.main .options li.o-groups  span{
+	background-position: -40px 0px;
+}
+.main .options li.o-lasts  span{
+	background-position: -80px 0px;
+}
+.main .main-box{
+	padding:8px 1px 0px 10px;
+	font-size:13px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+.main .main-box > ul{
+	
+}
+.main .main-box li{
+	color: #000000;
+}
+.main .main-box > ul > li{
+	background: url(../img/icons.png) no-repeat 6px -30px;
+	padding-left: 17px;
+}
+
+/*foot*/
+.foot{
+	height: 59px;
+}

@@ -1,0 +1,24 @@
+/*head*/
+body{
+	font-family: '微软雅黑'
+}
+.head{
+	background: #169ADA;
+}
+.head .funcs{
+}
+.head .search-box{
+	background: #157FB2;
+	border-top:1px solid #1179AC;
+	border-bottom: 1px solid #1179AC;
+}
+
+/*main*/
+.main .option{
+	
+}
+
+/*foot*/
+.foot{
+	border-top:1px solid #C1D0E6;
+}
