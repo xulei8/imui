@@ -13,6 +13,15 @@ ul,li{
 	-webkit-margin-end: 0px;
 	-webkit-padding-start: 0px;
 }
+p,h1,h2,h3 {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	margin:0px;
+	padding:0px;
+}
 .qbox{
 	width: 100%;
 	min-height: 302px;
@@ -152,9 +161,36 @@ ul,li{
 	background: url(../img/icons.png) no-repeat 0px -23px;
 	padding-left: 17px;
 }
-.main .main-box > ul > ul li{
-	height: 43px;
+.main .main-box .friends li{
+	position: relative;
+	height: 40px;
 	padding: 5px 0px;
+	margin-bottom: 3px;
+}
+.main .main-box .friends li:hover{
+	background: #FDEDAF;
+}
+.main .main-box .friends .face{
+	width: 40px;
+	height: 40px;
+	border: 0px;
+	border-radius: 3px;
+	float: left;
+}
+.main .main-box .friends .infos{
+	font-size: 12px;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	height: 31px;
+	margin:5px 10px 0px 50px;
+}
+.main .main-box .friends .infos p{
+	color: #7F7F7F;
+}
+.main .main-box .friends .infos p i{
+	font-style: normal;
 }
 
 /*foot*/

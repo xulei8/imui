@@ -14,11 +14,15 @@ body{
 }
 
 /*main*/
+.main{
+	/* background: #E8F5FC; */
+}
 .main .option{
 	
 }
 
 /*foot*/
 .foot{
-	border-top:1px solid #C1D0E6;
+	border-top:1px solid #A9D9F1;
+	background: #CBE9F7;
 }
