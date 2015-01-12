@@ -3,7 +3,8 @@
 <head>
 <meta http-equiv=Content-Type content="text/html;charset=utf-8">
 <title>QQ</title>
-<link rel="stylesheet" type="text/css" href="./Resource/css/base.css">
+<link rel="stylesheet" type="text/css" href="./Resource/css/public.css">
+<link rel="stylesheet" type="text/css" href="./Resource/css/main.css">
 <link rel="stylesheet" type="text/css" href="./Resource/css/theme/blue.css">
 </head>
 <body>
@@ -32,13 +33,51 @@
   <!--main-->
   <section class="main">
     <div class="options">
-      <li class="o-contacts current"><span></span></li>
-      <li class="o-groups"><span></span></li>
-      <li class="o-lasts"><span></span></li>
+      <li class="o-contacts current"><span></span><i></i></li>
+      <li class="o-groups"><span></span><i></i></li>
+      <li class="o-lasts"><span></span><i></i></li>
     </div>
     <div class="main-box">
-		<ul class="contacts">
-			<li>我的好友</li>
+		<ul class="contacts show">
+			<li class="current" is_show="0"><span class="g-o-c"></span>我的好友</li>
+				<ul class="friends show">
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
+						<div class="infos">
+							<span>绿芝麻</span>
+							<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/2.png" alt=""></a>
+						<div class="infos">
+							<span>刘欢</span>
+							<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/3.png" alt=""></a>
+						<div class="infos">
+							<span>徐芳</span>
+							<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/4.png" alt=""></a>
+						<div class="infos">
+							<span>徐宽</span>
+							<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/5.png" alt=""></a>
+						<div class="infos">
+							<span>王珊珊</span>
+							<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+						</div>
+					</li>
+				</ul>
+			<li is_show="1"><span class="g-o-c"></span>朋友</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -76,7 +115,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>朋友</li>
+			<li is_show="1"><span class="g-o-c"></span>同事</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -114,7 +153,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>同事</li>
+			<li is_show="1"><span class="g-o-c"></span>360</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -152,7 +191,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>360</li>
+			<li is_show="1"><span class="g-o-c"></span>初中同学</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -190,7 +229,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>初中同学</li>
+			<li is_show="1"><span class="g-o-c"></span>高中同学</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -228,7 +267,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>高中同学</li>
+			<li is_show="1"><span class="g-o-c"></span>蓝博易品</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -266,7 +305,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>蓝博易品</li>
+			<li is_show="1"><span class="g-o-c"></span>品极通达</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -304,7 +343,7 @@
 						</div>
 					</li>
 				</ul>
-			<li>品极通达</li>
+			<li is_show="1"><span class="g-o-c"></span>博大中国</li>
 				<ul class="friends">
 					<li>
 						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
@@ -342,12 +381,119 @@
 						</div>
 					</li>
 				</ul>
+			<li is_show="1"><span class="g-o-c"></span>北京自考</li>
+				<ul class="friends">
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
+						<div class="infos">
+							<span>绿芝麻</span>
+							<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/2.png" alt=""></a>
+						<div class="infos">
+							<span>刘欢</span>
+							<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/3.png" alt=""></a>
+						<div class="infos">
+							<span>徐芳</span>
+							<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/4.png" alt=""></a>
+						<div class="infos">
+							<span>徐宽</span>
+							<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+						</div>
+					</li>
+					<li>
+						<a href="" class="face"><img src="./Resource/img/face/5.png" alt=""></a>
+						<div class="infos">
+							<span>王珊珊</span>
+							<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+						</div>
+					</li>
+				</ul>				
 		</ul>
 		<ul>
 			
 		</ul>
-		<ul>
-			
+		<ul class="lasts friends">
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
+				<div class="infos">
+					<span>绿芝麻</span>
+					<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/2.png" alt=""></a>
+				<div class="infos">
+					<span>刘欢</span>
+					<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/3.png" alt=""></a>
+				<div class="infos">
+					<span>徐芳</span>
+					<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/4.png" alt=""></a>
+				<div class="infos">
+					<span>徐宽</span>
+					<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/5.png" alt=""></a>
+				<div class="infos">
+					<span>王珊珊</span>
+					<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/1.png" alt=""></a>
+				<div class="infos">
+					<span>绿芝麻</span>
+					<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/2.png" alt=""></a>
+				<div class="infos">
+					<span>刘欢</span>
+					<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/3.png" alt=""></a>
+				<div class="infos">
+					<span>徐芳</span>
+					<p><i>[在线]</i>心情如午后阳光，平和而温暖。。。幸福是自己内心的感受，不是别是给的，只是自己体会到的、此刻拥有的。。。</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/4.png" alt=""></a>
+				<div class="infos">
+					<span>徐宽</span>
+					<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+				</div>
+			</li>
+			<li>
+				<a href="" class="face"><img src="./Resource/img/face/5.png" alt=""></a>
+				<div class="infos">
+					<span>王珊珊</span>
+					<p><i>[在线]</i>我们都曾付出真心，最后败给年轻</p>
+				</div>
+			</li>
 		</ul>
     </div>
   </section>
@@ -360,6 +506,6 @@
 
 </div>
 <script type="text/javascript" src="./Resource/js/jquery.1.10.2.js"></script>
-<script type="text/javascript" src="./Resource/js/base.js"></script>
+<script type="text/javascript" src="./Resource/js/main.js"></script>
 </body>
 </html>
